@@ -1,0 +1,14 @@
+{
+    "name": "freddokresna/internetbsapi",
+    "description": "InternetBS API to integrate with YII framework",
+    "type": "library",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "freddokresna",
+            "email": "freddokresna@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
