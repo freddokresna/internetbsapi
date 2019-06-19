@@ -77,3 +77,5 @@ InternetBS::init('PUT-YOUR-API-HERE', 'PASSWORD');
 * [Ready to use plugins for leading web hosting and billing platforms] (http://internetbs.net/en/domain-name-registrations/domain-automation-plugins-modules.html?pId=apiclass)
 * [Reseller/Registrar Domain Name API Documentation] (http://internetbs.net/ResellerRegistrarDomainNameAPI/)
 
+# internetbsapi
+clone from https://github.com/GrishanAnton/InternetBS-API-PHP-Class in order to implement using YII framework
