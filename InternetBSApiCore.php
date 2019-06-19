@@ -106,7 +106,7 @@ class InternetBSApiCore {
         $this->apiKey = $apiKey;
         $this->password = $password;
 
-        // Check if we need to execute command at live or at test server
+        // Check if we need to execute command at live or at test server  testapi.internet.bs normally use this domain
         $this->host = $this->_isSame($this->apiKey, 'testapi') ? '77.247.183.107' : 'api.internet.bs';
 
         $this->agentName = empty($agentName) ? get_class($this) . ' v.' . self::apiClassVersion : $agentName;
