@@ -25,9 +25,7 @@ namespace freddokresna\internetbsapi;
  * @license  http://opensource.org/licenses/LGPL-3.0 The GNU Lesser General Public License, version 3.0 (LGPL-3.0)
  */
 // Try to load InternetBSApiInterface class definition if for some reason is not loaded yet
-if (!class_exists('InternetBSApiCore', false)) {
-    require_once('InternetBSApiCore.php');
-}
+
 
 class InternetBS extends InternetBSApiCore {
 

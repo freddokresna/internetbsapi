@@ -1,5 +1,7 @@
 <?php
 
+namespace freddokresna\internetbsapi;
+
 /**
  * InternetBSApiCore class
  *
