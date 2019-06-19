@@ -41,7 +41,7 @@ class InternetBS extends InternetBSApiCore {
      * @param string $password
      * @param null $agentName
      */
-    public static function init($apiKey = null, $password = null, $agentName = null) {
+    public static function init($apiKey, $password, $agentName) {
 
         // Check if we we have to use test api server
         if (empty($apiKey)) {
@@ -57,12 +57,12 @@ class InternetBS extends InternetBSApiCore {
      * Get access to API object instance
      * @return InternetBS
      */
-    public static function api() {
+    public static function api($apiKey, $password, $agentName) {
 
         // Check if we already initiate API access object instance
         if (empty(self::$api)) {
             // Ok. Let's initiate API to get access to test server
-            self::init();
+            self::init($apiKey, $password, $agentName);
         }
 
         return self::$api;
